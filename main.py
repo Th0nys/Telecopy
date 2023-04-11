@@ -31,7 +31,7 @@ from commands import *
 import admin
 
 logging.basicConfig(level=logging.INFO)
-lock = asyncio.Lock()
+lock = asyncio.Lock()   
 
 api_id = '23023328'
 api_hash = '111f1ddc23d1b313112f7c7a0612b3d1'
